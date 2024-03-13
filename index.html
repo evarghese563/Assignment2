@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+
+    <div class="Q1">
+
+        <h1>Check Consonants</h1>
+
+        <input type="text" id="firstfunc">
+        <button id="btn" class="btn" onclick="word();" >Check</button>
+
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </div>
+
+    <div class="Q2">
+
+        <h1>Check Palindrome</h1>
+
+        <input type="text" id="secondfunc">
+        <button id="btn" class="btn" onclick="palindrome();" >Check</button>
+
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </div>
+
+    <div class="Q3">
+        <h1>Check Total</h1>
+        <h4>Input subtotal</h4>
+        <input type="text" id="thirdfunc">
+        <br>
+        <h4>Check amount to tip</h4>
+        <form>
+            <input type="radio" id="tip1" name="tip" value="10">
+            <label for="tip1">10%</label><br>
+            <input type="radio" id="tip2" name="tip" value="15">
+            <label for="tip2">15%</label><br>
+            <input type="radio" id="tip3" name="tip" value="20">
+            <label for="tip3">20%</label>
+        </form>
+        <br>
+        <button id="btn" class="btn" onclick="total();" >Submit</button>
+
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
