@@ -81,7 +81,8 @@ function total(){
     let rates = document.querySelector('input[name="tip"]:checked').value;
     let dec = Number.parseFloat(rates)/100
 
-    let total = Number.parseFloat(subtotal) + dec
+    let total = Number.parseFloat(subtotal) * dec
+    total = Number.parseFloat(subtotal) + total
     console.log(Number.parseFloat(subtotal) + dec)
     li[6].textContent = "Your subtotal is $"+subtotal
     li[7].textContent = "You chose to tip "+rates+"%"
